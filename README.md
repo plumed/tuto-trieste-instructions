@@ -14,9 +14,13 @@ Requirements
 
 For the tutorial you will beed the following software to be installed:
 
+- C++ compiler (gcc, clang, or intel).
+- Git.
+- Cmake.
+- Gawk.
 - Libmatheval.
 - MPI library (either openmpi or mpich).
-- Gnuplot to plot data files..
+- Gnuplot to plot data files.
 - VMD to visualize the trajectories.
 - PLUMED from master branch of github repository, updated when the tutorial starts
 - GROMACS 5.1 patched with PLUMED using `patch -p --runtime`, so that PLUMED can be updated easily.
@@ -33,44 +37,45 @@ Instructions below are for Linux and OSX. With OSX we will assume you have Devel
 Install libraries & other stuff (Linux)
 ---------------------------------------
 
-Install libmatheval, MPI, and gnuplot:
+Install git, cmake, gawk, libmatheval, MPI, and gnuplot:
     
+    sudo apt-get install git cmake gawk
     sudo apt-get install libmatheval-dev
     sudo apt-get install libopenmpi-dev openmpi-bin
     sudo apt-get install gnuplot
 
 You can download VMD binaries [here](http://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD).
 
-TODO: python
+__TODO: add instructions for python__
 
 Install libraries & other stuff (OSX with MacPorts)
 ---------------------------------------------------
 
-Install libmatheval, MPI, and gnuplot
+Install git, cmake, gawk, libmatheval, MPI, and gnuplot:
 
+    sudo port install git cmake gawk
     sudo port install libmatheval
     sudo port install openmpi
     sudo port install gnuplot
 
 You can download VMD binaries [here](http://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD).
 
-TODO: python
+__TODO: add instructions for python__
 
 Install libraries & other stuff (OSX with HomeBrew)
 ---------------------------------------------------
 
-TODO: libmatheval?
+__TODO: add instructions for libmatheval__
 
-Install MPI, and gnuplot:
+Install git, cmake, gawk, libmatheval, MPI, and gnuplot:
 
-    sudo port install openmpi
-    sudo port install gnuplot
-
+    sudo brew install git cmake gawk
+    sudo brew install openmpi
+    sudo brew install gnuplot
 
 You can download VMD binaries [here](http://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD).
 
-TODO: python
-
+__TODO: add instructions for python__
 
 Install PLUMED
 --------------
