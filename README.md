@@ -25,6 +25,9 @@ For the tutorial you will beed the following software to be installed:
 - PLUMED from master branch of github repository, updated when the tutorial starts
 - GROMACS 5.1 patched with PLUMED using `patch -p --runtime`, so that PLUMED can be updated easily.
 
+In addition, if you have a smartphone or a tablet, please install [Socrative student](https://www.socrative.com/apps.html)
+in advance.
+
 If you already have all this stuff ready you can stop here. Otherwise follow the steps below.
 
 Notice that if you have an older version of PLUMED installed (e.g. 2.3.x) it will not be sufficient for some of the exercizes.
@@ -132,7 +135,7 @@ Here `/path/to/plumed2` is the directory where you compiled PLUMED.
 Install GROMACS
 ---------------
 
-Before that PLUMED is installed and functional before continuing with this step. Download GROMACS and patch it with PLUMED
+Make sure that PLUMED is installed and functional before continuing with this step. Download GROMACS and patch it with PLUMED
     
     wget ftp://ftp.gromacs.org/pub/gromacs/gromacs-5.1.4.tar.gz
     tar xzf gromacs-5.1.4.tar.gz
