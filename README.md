@@ -39,6 +39,15 @@ Supported operating systems
 
 Instructions below are for Linux and OSX. With OSX we will assume you have Developer Tools as well as either [MacPorts](http://www.macports.org) or [HomeBrew](http://brew.sh/) installed. In case you don't, choose one among them and install it. Windows is not supported. In addition we are trying to setup a [Docker](http://www.docker.com) image that should work across multiple operating systems, more at the end of this page.
 
+GNU AWK
+-------
+
+We will use GNU AWK in some exercize. Be sure your locale is set correctly. Please try
+
+     gawk 'BEGIN{print 3/2}'
+     
+If you see `1.5` that's ok. If you see `1,5` (notice the comma!) then you have to change your locale settings. Usually adding `export LANG=C` to your bash configuration file is enough.
+
 Install libraries & other stuff (Linux)
 ---------------------------------------
 
