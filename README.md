@@ -1,4 +1,4 @@
-WARNING: these instructions are still being drafted
+WARNING: these instructions are still being updated
 ===================================================
 
 
@@ -35,7 +35,7 @@ Notice that if you have an older version of PLUMED installed (e.g. 2.3.x) it wil
 Supported operating systems
 ---------------------------
 
-Instructions below are for Linux and OSX. With OSX we will assume you have Developer Tools as well as either [MacPorts](http://www.macports.org) or [HomeBrew](http://brew.sh/) installed. In case you don't, choose one among them and install it. Windows is not supported.
+Instructions below are for Linux and OSX. With OSX we will assume you have Developer Tools as well as either [MacPorts](http://www.macports.org) or [HomeBrew](http://brew.sh/) installed. In case you don't, choose one among them and install it. Windows is not supported. In addition we are trying to setup a [Docker](http://www.docker.com) image that should work across multiple operating systems, more at the end of this page.
 
 Install libraries & other stuff (Linux)
 ---------------------------------------
@@ -174,6 +174,11 @@ You should see something like this:
           [-plumed [<.dat>]] [-membed [<.dat>]] [-mp [<.top>]] [-mn [<.ndx>]]
      -plumed [<.dat>]           (plumed.dat)     (Opt.)
 
+
+Docker image
+------------
+
+This is a work in progress!
 
 
 
