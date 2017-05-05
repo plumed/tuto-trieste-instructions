@@ -9,6 +9,8 @@ In case you want to perform the tutorial using your own laptop please follow clo
 
 You will have internet access, so if you prefer you can run the tutorial on a remote machine at your university. Make sure that you are able to connect to this machine from outside your university network. Also consider that visualization of trajectories using VMD might be very slow across as `ssh` connection. Finally, notice that installing some of the libraries below requires `sudo` (root access on your machine). If necessary, ask your system administrator to install the libraries for you.
 
+If you have any question or feedback, please write to the plumed mailing list `plumed-users@googlegroups.com` so that everyone can benefit of questions and answers. In addition, if you are familiar with github and you want to improve this document, feel free to [open a pull request](https://github.com/plumed/tuto-trieste-instructions/pulls).
+
 Requirements
 ------------
 
@@ -178,7 +180,7 @@ You should see something like this:
 Docker image
 ------------
 
-This is a work in progress!
+This is a work in progress! Should be ready before May 15.
 
 
 
