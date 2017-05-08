@@ -5,7 +5,9 @@ WARNING: these instructions are still being updated
 Instructions
 ============
 
-In case you want to perform the tutorial using your own laptop please follow closely these instructions.
+If you have a smart phone please install Socrative Student from the App/Play store prior to the meeting.  You can find this app by searching
+for Socrative in the App/Play store.  Make sure that you install the student app and not the teacher app.  Then if you want to perform the 
+tutorials using your own laptop please follow closely these instructions.
 
 You will have internet access, so if you prefer you can run the tutorial on a remote machine at your university. Make sure that you are able to connect to this machine from outside your university network. Also consider that visualization of trajectories using VMD might be very slow across as `ssh` connection. Finally, notice that installing some of the libraries below requires `sudo` (root access on your machine). If necessary, ask your system administrator to install the libraries for you.
 
