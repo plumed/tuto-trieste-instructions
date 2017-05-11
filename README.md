@@ -173,8 +173,9 @@ Note on OSX with MacPorts: in case the name of the MPI compiler is `mpicxx-openm
 Compile GROMACS:
 
     make -j 4
+    make install
     
-Now you should be able to run GROMACS using the following command
+Then add `$HOME/opt/bin` to your path. For instance, you can add this command to your `.bashrc` file: `PATH="$HOME/opt/bin:$PATH`. Now you should be able to run GROMACS using the following command
 
     gmx_mpi mdrun
 
