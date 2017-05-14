@@ -164,9 +164,9 @@ Make sure that PLUMED is installed and functional before continuing with this st
     wget ftp://ftp.gromacs.org/pub/gromacs/gromacs-5.1.4.tar.gz
     tar xzf gromacs-5.1.4.tar.gz
     cd gromacs-5.1.4
+    plumed patch -p --runtime -e gromacs-5.1.4
     mkdir build
     cd build
-    plumed patch -p --runtime -e gromacs-5.1.4
 
 For the last command you need `plumed` executable to be in your path. Be sure that you do not get any warning.
 
