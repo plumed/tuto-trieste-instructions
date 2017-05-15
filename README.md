@@ -12,9 +12,16 @@ Using SISSA workstations
 ========================
 If you want to perform the tutorials using SISSA workstations you should just use this command
 
-    module use plumed-tutorial-2017
+    module load plumed-tutorial-2017
     
-This command will load the proper version of plumed and gromacs, plus python/gnuplot/etc
+This command will load the proper version of plumed and gromacs, plus python/gnuplot/etc.
+You can verify which modules were loaded by typing `module list`, that should result in something like this:
+
+    Currently Loaded Modulefiles:
+    1) intel/15.0                 4) python/3.3.2               7) vmd/1.9.2
+    2) openmpi/1.8.5/intel/15.0   5) numpy/1.11.1/python/3.3    8) Gawk/4.1.4
+    3) gnuplot/5.0.4              6) scipy/0.17.1/python/3.3    9) plumed-tutorial-2017/1.0
+
 
 Using your laptop
 =================
