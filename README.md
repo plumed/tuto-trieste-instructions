@@ -210,7 +210,19 @@ You should see something like this:
 Docker image
 ------------
 
-This is a work in progress! Should be ready before May 15.
+Make sure Docker is installed and running on your computer. You can run an image containing PLUMED, GROMACS, and the other required tools using this command
+
+    docker run -it rinnocente/gromed-ts-tutorial-2017 /bin/bash
+
+In case you want to share files between your machine and the Docker container, you can use the following command instead
+
+    docker run -v "$(pwd)":/home/gromed/data -it rinnocente/gromed-ts-tutorial-2017 /bin/bash
+
+The working directory in your laptop will be then accessible as `$HOME/data` inside the Docker container.
+
+More detailed instructions can be found at [this link](https://github.com/rinnocente/gromed-ts-tutorial-2017).
+
+Many thanks to Roberto Innocente (SISSA) for setting this up!
 
 
 
