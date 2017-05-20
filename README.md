@@ -77,10 +77,9 @@ Install git, cmake, gawk, libmatheval, MPI, and gnuplot:
     sudo apt-get install libmatheval-dev
     sudo apt-get install libopenmpi-dev openmpi-bin
     sudo apt-get install gnuplot
+    sudo apt-get install python3 python3-numpy python3-scipy
 
 You can download VMD binaries [here](http://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD).
-
-__TODO: add instructions for python__
 
 Install libraries & other stuff (OSX with MacPorts)
 ---------------------------------------------------
@@ -91,10 +90,9 @@ Install git, cmake, gawk, libmatheval, MPI, and gnuplot:
     sudo port install libmatheval
     sudo port install openmpi
     sudo port install gnuplot
+    sudo port install python36 py36-numpy py36-scipy
 
 You can download VMD binaries [here](http://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD).
-
-__TODO: add instructions for python__
 
 Install libraries & other stuff (OSX with HomeBrew)
 ---------------------------------------------------
@@ -106,10 +104,11 @@ Install git, cmake, gawk, libmatheval, MPI, and gnuplot:
     sudo brew install git cmake gawk
     sudo brew install openmpi
     sudo brew install gnuplot
+    sudo brew install python3
+    sudo brew install numpy --with-python3
+    sudo brew install scipy --with-python3
 
 You can download VMD binaries [here](http://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD).
-
-__TODO: add instructions for python__
 
 Install PLUMED
 --------------
