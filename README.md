@@ -94,6 +94,14 @@ Install git, cmake, gawk, libmatheval, MPI, and gnuplot:
 
 You can download VMD binaries [here](http://www.ks.uiuc.edu/Development/Download/download.cgi?PackageName=VMD).
 
+Make sure that your compiler is able to see the libraries you installed. Add to your `.bashrc` file the following lines
+
+    export PATH="/opt/local/bin:$PATH"
+    export CPATH="/opt/local/include:$CPATH"
+    export INCLUDE="/opt/local/include:$INCLUDE"
+    export LIBRARY_PATH="/opt/local/lib:$LIBRARY_PATH"
+    export LD_LIBRARY_PATH="/opt/local/lib:$LD_LIBRARY_PATH"
+
 Install libraries & other stuff (OSX with HomeBrew)
 ---------------------------------------------------
 
